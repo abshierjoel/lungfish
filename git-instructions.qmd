@@ -4,7 +4,7 @@ title: "How to use Git for Amanda"
 
 ## Introduction
 
-Hello, Amanda 👋
+Hello, Amanda 👋 
 
 Welcome to Git! This will be your personal guide, written by me, to help you learn the most basic commands for managing your code. Git is a way to keep track of changes to your code -- nothing more! The whole idea is that every change you make to a file gets tracked and you have a whole history of it. It requires a bit of discipline to learn, but as a scientist as smart as yourself, I'm sure it won't be difficult for you.
 

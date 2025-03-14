@@ -1,21 +1,14 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Test website for Amanda\nHere are some Git commands that you may find important.\n&gt;&gt;&gt; Stage all files with changes to be committed\ngit add .\n&gt;&gt;&gt; Commit the files that you staged with the previous command\nProvide a commit message to describe what you did.\ngit commit -m \"this change includes a new page to discuss the research\""
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "amanda",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "git-instructions.html",
     "href": "git-instructions.html",
+    "title": "How to use Git for Amanda",
+    "section": "",
+    "text": "Hello, Amanda 👋\nWelcome to Git! This will be your personal guide, written by me, to help you learn the most basic commands for managing your code. Git is a way to keep track of changes to your code – nothing more! The whole idea is that every change you make to a file gets tracked and you have a whole history of it. It requires a bit of discipline to learn, but as a scientist as smart as yourself, I’m sure it won’t be difficult for you.\nThe most important thing ot keep in mind is that there is a copy of the code on your computer and a copy on GitHub. When a change is made on your local computer you’ll need to push it to GitHub, and when a change is made on GitHub you’ll need to pull it to your local computer.\n\n\n\nFigure 1. GitHub Pull Model\n\n\nHopefully this image (Figure 1) can help clarify the workflow for you. If you get confused just call me 🙃"
+  },
+  {
+    "objectID": "git-instructions.html#introduction",
+    "href": "git-instructions.html#introduction",
     "title": "How to use Git for Amanda",
     "section": "",
     "text": "Hello, Amanda 👋\nWelcome to Git! This will be your personal guide, written by me, to help you learn the most basic commands for managing your code. Git is a way to keep track of changes to your code – nothing more! The whole idea is that every change you make to a file gets tracked and you have a whole history of it. It requires a bit of discipline to learn, but as a scientist as smart as yourself, I’m sure it won’t be difficult for you.\nThe most important thing ot keep in mind is that there is a copy of the code on your computer and a copy on GitHub. When a change is made on your local computer you’ll need to push it to GitHub, and when a change is made on GitHub you’ll need to pull it to your local computer.\n\n\n\nFigure 1. GitHub Pull Model\n\n\nHopefully this image (Figure 1) can help clarify the workflow for you. If you get confused just call me 🙃"
@@ -28,13 +21,6 @@
     "text": "Useful Git Commands\n🔽 Pull changes from GitHub\nBefore you start doing any work, you should always pull the latest changes from GitHub in case you or someone else has pushed something there.\ngit pull\n\n✨ Stage all files with changes to be committed\nThis command collects all the files that you’ve added or changed and stages them to be included in the next commit. In the following step you will create a commit and see these changes.\ngit add .\n\n🔎 Check that your files are staged\nThis command is just to check if your files were staged correctly. When you run it, you’ll see a lot of data with pluses or minuses, indicated new lines and deleted lines.\ngit diff \nOr if you just want to list the names of the files with changes, use this command:\ngit diff --name-only\n\n📄 Commit the files that you staged with the previous command\nProvide a commit message to describe what you did.\ngit commit -m \"this change includes a new page to discuss the research\"\n\n⬆️ Push your commit to GitHub\nAfter you’ve added your changes and committed them, you can push the changes up. Once pushed,\ngit push"
   },
   {
-    "objectID": "git-instructions.html#hello-amanda",
-    "href": "git-instructions.html#hello-amanda",
-    "title": "How to use Git for Amanda",
-    "section": "",
-    "text": "Welcome to Git! This will be your personal guide, written by me, to help you learn the most basic commands for managing your code. Git is a way to keep track of changes to your code – nothing more! The whole idea is that every change you make to a file gets tracked and you have a whole history of it. It requires a bit of discipline to learn, but as a scientist as smart as yourself, I’m sure it won’t be difficult for you.\nThe most important thing ot keep in mind is that there is a copy of the code on your computer and a copy on GitHub. When a change is made on your local computer you’ll need to push it to GitHub, and when a change is made on GitHub you’ll need to pull it to your local computer.\n\n\n\nFigure 1. GitHub Pull Model\n\n\nHopefully this image (Figure 1) can help clarify the workflow for you. If you get confused just call me 🙃"
-  },
-  {
     "objectID": "git-instructions.html#branches",
     "href": "git-instructions.html#branches",
     "title": "How to use Git for Amanda",
@@ -42,10 +28,10 @@
     "text": "Branches\nIf you end up collaborating with multiple people on a project, it will be essential that you start using branches. I’ll write this section, if you need it. I’ll leave you with a great source for information, if you decide to look into this.\n🔗 Git Branches Documentation"
   },
   {
-    "objectID": "git-instructions.html#introduction",
-    "href": "git-instructions.html#introduction",
-    "title": "How to use Git for Amanda",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "amanda",
     "section": "",
-    "text": "Hello, Amanda 👋\nWelcome to Git! This will be your personal guide, written by me, to help you learn the most basic commands for managing your code. Git is a way to keep track of changes to your code – nothing more! The whole idea is that every change you make to a file gets tracked and you have a whole history of it. It requires a bit of discipline to learn, but as a scientist as smart as yourself, I’m sure it won’t be difficult for you.\nThe most important thing ot keep in mind is that there is a copy of the code on your computer and a copy on GitHub. When a change is made on your local computer you’ll need to push it to GitHub, and when a change is made on GitHub you’ll need to pull it to your local computer.\n\n\n\nFigure 1. GitHub Pull Model\n\n\nHopefully this image (Figure 1) can help clarify the workflow for you. If you get confused just call me 🙃"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
