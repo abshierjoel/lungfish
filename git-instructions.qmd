@@ -1,0 +1,81 @@
+---
+title: "How to use Git for Amanda"
+---
+
+## Introduction
+
+Hello, Amanda 👋
+
+Welcome to Git! This will be your personal guide, written by me, to help you learn the most basic commands for managing your code. Git is a way to keep track of changes to your code -- nothing more! The whole idea is that every change you make to a file gets tracked and you have a whole history of it. It requires a bit of discipline to learn, but as a scientist as smart as yourself, I'm sure it won't be difficult for you.
+
+The most important thing ot keep in mind is that there is a copy of the code on your computer and a copy on GitHub. When a change is made on your local computer you'll need to __push__ it to GitHub, and when a change is made on GitHub you'll need to __pull__ it to your local computer.
+
+![Figure 1. GitHub Pull Model](https://cdn.analyticsvidhya.com/wp-content/uploads/2024/01/Git-Pull-push.jpg)
+
+Hopefully this image (Figure 1) can help clarify the workflow for you. If you get confused just call me 🙃
+
+<br />
+
+## Useful Git Commands
+
+__🔽 Pull changes from GitHub__
+
+Before you start doing any work, you should always pull the latest changes from GitHub in case you or someone else has pushed something there.
+
+```bash
+git pull
+```
+
+<br />
+
+__✨ Stage all files with changes to be committed__
+
+This command collects all the files that you've added or changed and stages them to be included in the next commit. In the following step you will create a commit and see these changes.
+
+```bash
+git add .
+```
+
+<br />
+
+__🔎 Check that your files are staged__
+
+This command is just to check if your files were staged correctly. When you run it, you'll see a lot of data with pluses or minuses, indicated new lines and deleted lines.
+
+```bash
+git diff 
+```
+
+Or if you just want to list the names of the files with changes, use this command:
+
+```bash
+git diff --name-only
+```
+
+<br />
+
+__📄 Commit the files that you staged with the previous command__
+
+Provide a commit message to describe what you did.
+
+```bash
+git commit -m "this change includes a new page to discuss the research"
+```
+
+<br />
+
+__⬆️ Push your commit to GitHub__
+
+After you've added your changes and committed them, you can push the changes up. Once pushed, 
+
+```bash
+git push
+```
+
+<br />
+
+## Branches
+
+If you end up collaborating with multiple people on a project, it will be essential that you start using branches. I'll write this section, if you need it. I'll leave you with a great source for information, if you decide to look into this.
+
+[🔗 Git Branches Documentation](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
